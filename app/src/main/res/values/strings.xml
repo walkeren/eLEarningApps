@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">eLEarning Apps</string>
+
+
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Sandi</string>
+    <string name="forgot_password">Lupa Sandi</string>
+    <string name="or">- atau -</string>
+    <string name="register">Daftar</string>
+    <string name="register_new_account">Daftar Akun Baru</string>
+    <string name="name">Nama</string>
+    <string name="confirm_password">Ulangi Sandi</string>
+    <string name="change_password">Ubah Sandi</string>
+    <string name="old_password">Sandi Lama</string>
+    <string name="new_password">Sandi Baru</string>
+    <string name="confirm_new_password">Ulangi Sandi Baru</string>
+    <string name="user">Pengguna</string>
+    <string name="default_username">Awaluddin Syarif</string>
+    <string name="default_email_user">awaluddin21@mhs.akba.ac.id</string>
+    <string name="default_text">-</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="logout">Keluar</string>
+    <string name="welcome_home">Selamat Datang</string>
+    <string name="tag_line">LMS Unitama</string>
+    <string name="search">Cari</string>
+    <string name="your_materials">Mata Kuliah</string>
+    <string name="please_field_your_email">Isikan alamat email</string>
+    <string name="please_use_valid_email">Gunakan email yang benar</string>
+    <string name="please_field_your_password">Isikan Kata Sandi</string>
+    <string name="please_wait">Tunggu …</string>
+    <string name="success">Berhasil</string>
+    <string name="error">Error</string>
+    <string name="please_field_your_name">Isikan nama Anda</string>
+    <string name="please_field_your_confirm_password">Ketik ulang sandi Anda</string>
+    <string name="please_field_your_password_more_than_8">Sandi harus lebih dari 8 karakter</string>
+    <string name="please_field_your_confirm_password_more_than_8">Ulangi sandi harus lebih dari 8 karakter</string>
+    <string name="your_password_didnt_match">Sandi tidak cocok</string>
+    <string name="please_field_your_old_password">Masukkan sandi lama</string>
+    <string name="please_input_your_old_password_more_than_8">Sandi lama harus leebih dari 8 karakter</string>
+    <string name="please_field_your_new_password">Isikan sandi baru</string>
+    <string name="please_input_your_new_password_more_than_8">Sandi baru harus lebih dari 8 karakter</string>
+    <string name="please_field_your_confirm_new_password">Isikan ulangi sandi baru</string>
+    <string name="please_input_your_confirm_new_password_more_than_8">Ulangi Sandi harus lebih dari 8 karakter</string>
+    <string name="success_change_pass">Selamat, sandi Anda berhasil diubah</string>
+    <string name="success_register">Selamat, akun Anda berhasil didaftarkan</string>
+    <string name="success_forgot_pass">Link untuk reset kata sandi sudah dikirim ke email, periksa email Anda</string>
+    <string name="user_profile">Profil Pengguna</string>
+    <string name="unitama_learning_center">Unitama Learning Center</string>
+</resources>
