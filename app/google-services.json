@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1083820054178",
+    "project_id": "elearning-apps-caabe",
+    "storage_bucket": "elearning-apps-caabe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083820054178:android:4eddce02312523f5c5e9fb",
+        "android_client_info": {
+          "package_name": "com.akba.elearningapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083820054178-cf6ao7akmh3ppf96jjdaj3v10033b5mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnJp8N-AyMktbrjz-5HGwasKkOzxbBhac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083820054178-cf6ao7akmh3ppf96jjdaj3v10033b5mn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
