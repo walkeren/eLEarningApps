@@ -50,7 +50,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/default_text"
-                android:textSize="@dimen/subtitle_1"
+                android:textSize="@dimen/h6"
                 android:textColor="@color/white"
                 android:fontFamily="sans-serif-medium"
                 tools:text="Awaluddin Syarif"
