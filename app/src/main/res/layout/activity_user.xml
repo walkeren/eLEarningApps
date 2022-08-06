@@ -30,6 +30,7 @@
                     android:id="@+id/btn_close_user"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:tint="@color/white"
                     android:background="@android:color/transparent"
                     android:src="@drawable/ic_baseline_close_24"/>
 
@@ -37,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/user_profile"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:fontFamily="sans-serif-medium"
                     android:layout_marginStart="@dimen/normal_100"/>
 
