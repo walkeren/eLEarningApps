@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:elevation="0dp"
-            android:background="@android:color/transparent">
+            android:background="@color/colorSecondary">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -72,6 +72,7 @@
                     android:id="@+id/iv_avatar_user"
                     android:layout_width="@dimen/image_user_profile_large"
                     android:layout_height="@dimen/image_user_profile_large"
+                    android:layout_marginTop="@dimen/large_125"
                     android:src="@android:color/darker_gray"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toStartOf="@id/guideline_start"
@@ -82,7 +83,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/default_text"
-                    tools:text="Aulia Rahman"
+                    tools:text="@string/default_username"
                     android:textAlignment="center"
                     android:textSize="@dimen/h5"
                     android:textColor="@color/black"
@@ -97,7 +98,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/default_text"
-                    tools:text="aulia@codepolitan.com"
+                    tools:text="@string/default_email_user"
                     android:textAlignment="center"
                     android:textSize="@dimen/subtitle_1"
                     app:layout_constraintTop_toBottomOf="@id/tv_name_user"

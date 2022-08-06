@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_90"
     android:fillViewport="true"
     tools:context=".LoginActivity">
 
@@ -16,23 +17,26 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/image_login"
-            android:layout_gravity="center_horizontal"/>
+            android:src="@drawable/logo_unitama"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/large_150"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/login"
             android:textStyle="bold"
-            android:textColor="@color/black"
-            android:textSize="@dimen/h5"
-            android:layout_marginTop="@dimen/normal_100"/>
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/h4"
+            android:layout_marginTop="@dimen/large_125"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/edit_text_height"
             app:hintEnabled="false"
-            android:layout_marginTop="@dimen/small_100">
+            android:layout_marginTop="@dimen/large_125"
+            app:startIconDrawable="@drawable/ic_baseline_mail_outline_24">
 
             <EditText
                 android:id="@+id/et_email_login"
@@ -51,6 +55,7 @@
             android:layout_height="@dimen/edit_text_height"
             app:hintEnabled="false"
             app:endIconMode="password_toggle"
+            app:startIconDrawable="@drawable/ic_baseline_lock_open_24"
             android:layout_marginTop="@dimen/normal_100">
 
             <EditText
@@ -65,15 +70,6 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <Button
-            android:id="@+id/btn_forgot_pass_login"
-            android:layout_width="wrap_content"
-            android:layout_height="36dp"
-            android:text="@string/forgot_password"
-            android:textAllCaps="false"
-            android:background="@android:color/transparent"
-            android:layout_marginTop="@dimen/normal_100"
-            android:layout_gravity="end"/>
 
         <Button
             android:id="@+id/btn_login"
@@ -81,31 +77,41 @@
             android:layout_height="wrap_content"
             android:text="@string/login"
             android:textColor="@color/white"
-            android:background="@drawable/bg_btn_auth_color_primary"
+            android:background="@drawable/bg_btn_auth_color_secondary"
             android:layout_marginStart="@dimen/small_50"
             android:layout_marginEnd="@dimen/small_50"
-            android:layout_marginTop="@dimen/normal_100"/>
+            android:layout_marginTop="@dimen/normal_150"/>
 
+        <Button
+            android:id="@+id/btn_forgot_pass_login"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/forgot_password"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="@dimen/normal_100"
+            android:layout_gravity="center_horizontal"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/or"
-            android:textAllCaps="true"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_marginTop="@dimen/normal_100"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:elevation="@dimen/large_100"
+            android:layout_marginTop="@dimen/small_50"
             android:layout_gravity="center_horizontal"/>
 
         <Button
             android:id="@+id/btn_register"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/register"
-            android:textColor="@color/colorPrimary"
-            android:background="@drawable/bg_btn_auth_color_white"
-            android:layout_marginStart="@dimen/small_50"
-            android:layout_marginEnd="@dimen/small_50"
-            android:layout_marginTop="@dimen/normal_100"/>
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/register_new_account"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="@dimen/small_50"
+            android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 

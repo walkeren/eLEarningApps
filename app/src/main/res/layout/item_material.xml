@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="280dp"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,7 +8,8 @@
     app:cardCornerRadius="@dimen/normal_100"
     app:cardElevation="@dimen/small_50"
     android:layout_marginStart="@dimen/small_100"
-    android:layout_marginEnd="@dimen/small_100">
+    android:layout_marginEnd="@dimen/small_100"
+    android:layout_marginBottom="@dimen/normal_100">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/image_course_home_height"
             app:cardElevation="0dp"
-            app:cardCornerRadius="@dimen/normal_100">
+            >
 
             <ImageView
                 android:id="@+id/iv_material"
@@ -35,13 +36,12 @@
             android:id="@+id/tv_title_material"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/normal_250"
             android:layout_margin="@dimen/normal_100"
             android:text="@string/default_text"
             tools:text="@tools:sample/lorem/random"
             android:maxLines="2"
             android:ellipsize="end"
-            android:textSize="@dimen/subtitle_1"
+            android:textSize="@dimen/h6"
             android:textColor="@color/black"
             android:fontFamily="sans-serif-medium"/>
 

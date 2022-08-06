@@ -15,7 +15,7 @@
             android:id="@+id/appbar_content"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorPrimaryDark"
+            android:background="@color/colorSecondary"
             app:elevation="0dp"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -64,7 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:tint="@color/white"
-            android:backgroundTint="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimary"
             android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
             android:layout_margin="@dimen/normal_100"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -92,7 +92,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:tint="@color/white"
-            android:backgroundTint="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimary"
             android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
             android:layout_margin="@dimen/normal_100"
             app:layout_constraintBottom_toBottomOf="parent"
